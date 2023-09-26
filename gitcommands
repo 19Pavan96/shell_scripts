@@ -1,0 +1,72 @@
+1) git init
+  --> Used to convert normal directory to git directory
+
+2) git config --global user.name "user-name"
+  --> Used to register the name of user
+
+3) git config --global user.email "user-email"
+  -->To register the email of user
+
+4) git add *
+  --> To stage the changes
+
+5) git commit -m "your message"
+  --> To commit the changes to remote repo
+
+6) git push origin branchname
+  --> To push changes to remote repo
+
+7) git pull origin branchname
+  --> To pull changes from remote repo to local directory
+
+8) git remote add origin repolink
+  --> To link between local and remote repo
+
+9) git remote -v
+  --> To see which repo is linked to local directory
+
+10) git clone repolink
+  --> To clone files from remote repo to local repo
+
+11) git --version
+  --> To check our git version
+
+12) git merge Main
+  --> Merges files from present branch to Main branch
+
+13) git rebase Main
+  --> Merges files from present branch to Main branch but puts the changes in between where that rebased branch is created
+
+14) git push origin branchname --force-with-lease
+  --> Forcefully pushes files from present branch to mentioned branch
+
+15) git branch
+  --> To see the branches in that repo
+
+16) git branch branchname
+  --> To create branch
+
+17) git checkout branchname
+  --> To switch the branch
+
+18) git checkout -b branchname
+  --> To create and switch to that branch at a time
+
+19) git branch -d branchname
+  --> To delete the branch
+
+20) git remote set-url origin link
+  --> To change the linked repository
+
+21) git log
+  --> To see the commit history
+
+22) git stash file-name
+  --> To archive that changes for a while
+
+23) git stash apply
+  --> To pause the archieved changes
+
+24) git branch -m branchname
+  --> To rename the branch
+
